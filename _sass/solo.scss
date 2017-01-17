@@ -1,12 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,500,700);
-
 html {
-  font: 18px/1.6 'Open Sans', sans-serif;
+  font: 18px/1.6 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 
 @media (max-width: 325px) {
-  html { font: 17px/1.6 'Open Sans', sans-serif; }
+  html { font: 17px/1.6 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
 }
 
 body {
@@ -33,21 +31,26 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 0 0.5rem -0.1rem /* align left edge */;
   color: #111;
   text-rendering: optimizeLegibility;
-  font-family: 'Open Sans', serif;
-  line-height: 1.2
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  line-height: 1.35
 }
 
 @media (max-width: 750px) {
-h1, h2, h3, h4, h5, h6 {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
- }
+  h1, h2, h3, h4, h5, h6 {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+.main-title {
+  font-weight: bold;
+  margin-bottom: 7rem;
 }
 
 h1 {
   font-size: 2.5rem;
-  margin-bottom: 7rem;
-  font-weight: 700;
+  margin-bottom: 3.75rem;
+  font-weight: 100;
   margin-left: -2rem;
   margin-right: -2rem;
 }
@@ -55,7 +58,7 @@ h1 {
 @media (min-width: 30rem) {
   h1 {
     font-size: 4rem;
-    margin-bottom: 10rem;
+    margin-bottom: 3.75rem;
   }
 }
 
@@ -148,7 +151,7 @@ hr {
 }
 
 a {
-word-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .container img {
@@ -158,9 +161,9 @@ word-wrap: break-word;
 }
 
 @media (max-width: 635px) {
-.container img {
- max-width: 100%
- }
+  .container img {
+    max-width: 100%
+  }
 }
 
 table {
@@ -209,34 +212,9 @@ pre > code {
 }
 
 @media (max-width: 635px) {
-.sharing {
- font-size: 85%;
- }
-}
-
-/* This gets Google to fall into place */
-.social {
- text-align: right;
-}
-
-.topsocial {
-	margin-bottom: 5em;
-}
-
-/* This gets Facebook to fall into place */
-.social iframe {
-	vertical-align: middle;
-}
-
-/* Set an optional width for your button wrappers */
-.social span {
-	display: inline-block;
-	width: 110px;
-}
-
-/* Adjust the widths individually if you like */
-.social .google {
-	width: 75px;
+  .sharing {
+    font-size: 85%;
+  }
 }
 
 .button {
@@ -252,18 +230,9 @@ pre > code {
 }
 
 .button:hover {
-	color: white;
-	background-color: #111;
-	cursor: pointer;
-	text-decoration: none;
-	transition: 0.5s;
-}
-
-.Facebook {
-	transform: scale(1.25);
-}
-
-.sharing-buttons {
-	width: 100%;
-}
+  color: white;
+  background-color: #111;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
 }

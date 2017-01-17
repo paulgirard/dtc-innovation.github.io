@@ -1,0 +1,54 @@
+name: David
+sort_order: 1
+short_description: |
+  Software engineer contributing to the Open Web with a
+  solid experience in startups, entrepreneurship and open education.
+what_makes_them_happy: A cup of hot chocolate.
+notable_fact: Can reimplement TCP/IP protocol in an afternoon.
+current_location: Bordeaux, France
+main_education: Computer Science
+education:
+  - major: Computer Science
+    location: University of California and San Diego
+    date_start: ~
+    date_end: ~
+  - major: Computer Science
+    location: ENSEIRB-Matmeca
+    date_start: ~
+    date_end: ~
+work:
+  - company: dtc innovation
+    role: Co-founder, web developer, coach
+    location: Bordeaux, France
+    date_start: 2016-09
+    date_end: ~
+    highlights:
+      - id: six-elements
+      - id: gironde-dataviz
+  - company: Ants
+    role: Co-founder, web developer, coach
+    location: Bordeaux, France
+    date_start: 2014-09
+    date_end: 2016-03
+  - company: Self-employed
+    role: Web developer, coach
+    date_start: 2013-10
+    date_end: 2014-09
+  - company: Dijiwan
+    role: Web developer
+    location: Bordeaux, France
+    date_start: 2013-01
+    date_end: 2013-09
+activities:
+  - name: BordeauxJS
+    description: Monthly JavaScript meetup for developers.
+    role: Co-host and co-founder
+    date_start: 2013-03
+    date_end: ~
+  - name: Coding Goûter
+    description: Funny and practical introduction to programming for kids and their parents and tutors.
+    date_start: 2013
+    date_end: ~
+  - name: Public Speaking
+    description: |
+      Web development talks, mostly around JavaScript — eg: O'Reilly, ScotlandJS, DotJS

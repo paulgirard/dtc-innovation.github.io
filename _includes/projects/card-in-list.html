@@ -1,0 +1,29 @@
+<article class="card-in-list col-md-4" id="project-{{ project.slug }}">
+  <h2>{{ project.name }}</h2>
+
+  <dl class="def-as-list">
+    <dt class="hidden-from-ui">Summary</dt>
+    <dd class="main">{{ project.short_description }}</dd>
+
+    <dt class="hidden-from-ui"></dt>
+    <dd>
+      <ul>{% for label in project.labels %}
+        <li>{{ label }}</li>
+      {% endfor %}</ul>
+    </dd>
+
+    <dt>Current Stage</dt>
+    <dd>{{ project.current_stage }}</dd>
+
+    <dt>Next Stage</dt>
+    <dd>{{ project.next_stage }}</dd>
+    {% assign collection = site.collections | where:'label',project.collection | first %}
+    {% if project.resources %}
+    <dt>Additional Resources</dt>
+      {% for resource_value in project.resources %}
+      {% assign resource_id = resource_value[0] %}
+      <dd class="same-def"><a href="{{ resource_value[1] }}" target="_blank">{{ collection.resources[resource_id] }}</a></dd>
+      {% endfor %}
+    {% endif %}
+  </dl>
+</article>

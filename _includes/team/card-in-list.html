@@ -1,0 +1,24 @@
+<article class="card-in-list col-md-4">
+  <h2>{{ person.name }}</h2>
+
+  <figure>
+    <img src="{{ site.baseurl}}/images/team/{{ id }}.jpg" alt="Profile picture of {{ person.name }}" class="responsive-img">
+  </figure>
+
+  <dl class="def-as-list">
+    <dt class="hidden-from-ui">Main Education</dt>
+    <dd>{{ person.main_education }}</dd>
+
+    <dt class="hidden-from-ui">Fluent In</dt>
+    <dd class="main">{{ person.short_description }}</dd>
+
+    <dt>What Makes Them Happy</dt>
+    <dd>{{ person.what_makes_them_happy }}</dd>
+
+    <dt>Notable Fact</dt>
+    <dd>{{ person.notable_fact }}</dd>
+
+    <dt>Current Location</dt>
+    <dd>{{ person.current_location }}</dd>
+  </dl>
+</article>

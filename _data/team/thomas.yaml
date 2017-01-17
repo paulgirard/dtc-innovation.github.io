@@ -1,0 +1,17 @@
+name: Thomas
+sort_order: 2
+short_description: |
+  Software engineer with a crush for user interfaces,
+  scalable systems and soft skills development.
+what_makes_them_happy: Walking in Nature.
+notable_fact: Always has cheese in the fridge.
+current_location: London, United Kingdom
+main_education: Self taught
+education:
+work:
+  - company: dtc innovation
+    role: Co-founder, web developer, coach
+    location: Bordeaux, France
+    date_start: 2016-09
+    date_end: ~
+activities:

@@ -1,0 +1,29 @@
+@import 'dtc';
+
+.promo {
+  color: $gray;
+
+  strong {
+    color: $green;
+  }
+
+  strong + strong {
+    color: $dark-green;
+  }
+
+  strong + strong + strong {
+    color: $blue;
+  }
+}
+
+a[href*="#footnote-"],
+.footnote a[href*="#ref-"] {
+  font-size: .9em;
+  position: relative;
+  top: -.5em;
+}
+
+.footnote {
+  color: $light-gray;
+  font-size: .8em;
+}

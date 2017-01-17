@@ -1,0 +1,22 @@
+body .responsive-img {
+  margin: 0;
+  max-width: 75%;
+
+  @media(min-width: 636px) {
+    max-width: 100%;
+  }
+}
+
+.page-footer {
+  border-top: 1px solid $light-gray;
+  color: $light-gray;
+  font-size: .9em;
+  margin: 1.5em auto;
+  padding: 1.5em 0 0;
+
+  &,
+  p {
+    display: block;
+    text-align: center;
+  }
+}

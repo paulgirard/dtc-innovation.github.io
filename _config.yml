@@ -6,6 +6,12 @@ baseurl: ""
 
 font-awesome-include: false
 
+collections:
+  projects:
+    resources:
+      github: GitHub Project
+      website: Website
+
 # Build settings
 markdown: kramdown
 

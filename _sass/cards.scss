@@ -1,0 +1,40 @@
+@import 'dtc';
+
+.card-in-list {
+  text-align: left;
+
+  figure {
+    margin: 1.5em 1px;
+  }
+
+  h2 {
+    margin: 0;
+    text-align: left;
+  }
+}
+
+.def-as-list {
+  dd,
+  dt {
+    font-size: .8em;
+  }
+
+  dt {
+    border-top: 1px solid fade-out($light-gray, .5);
+    color: lighten(#333, 16.5%);
+    font-size: .6em;
+    margin: 1.5em 2em 0 0;
+    padding: .5em 0 0;
+  }
+
+  dd {
+    margin: 0 1em 1.5em 0;
+  }
+  dd.same-def {
+    margin: 0 1em 0 0;
+  }
+
+  dd.main {
+    font-size: 1em;   // restore initial size
+  }
+}

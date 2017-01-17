@@ -1,0 +1,12 @@
+@import 'dtc';
+
+option[value=""] {
+  color: $light-gray;
+}
+
+.btn {
+  background: #fff;
+  border: 1px solid $light-gray;
+  border-radius: 5px;
+  cursor: pointer;
+}
