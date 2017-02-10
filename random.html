@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="random">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    h1, h2{
+        text-align: center;
+    }
+
+    h2{
+        color: grey;
+    }
+
+    h2:nth-of-type(2){
+        color:steelblue;
+    }
+  </style>
+  <title> Mais qu'est-ce que c'est donc dtc ? </title>
+</head>
+<body>
+  <header>
+    <h1>dtc innovation</h1>
+    <h2>le dtc du jour</h2>
+    <h2>Coucou, on se cause ?</h2>
+  </header>
+
+  <script>
+    // Choisir aléatoirement une signification de dtc
+    var randomdtc = [
+        'Disco Tarte et Chocolat',
+        'David Thomas et Clémentine',
+        'Designing Technologies for the Communs',
+        'Dream Team de Choc',
+        'Déconstruis Tes Certitudes',
+        'Demi-Tour Camarade',
+        'Design Test et Coopération',
+        'Dentelles Tricot et Corset',
+        'Diplodocus Tyrex et Crétacé',
+        'Delta Théta et Chaipa',
+        'Dinette Tetris et Collage',
+        'Danse Tantrique des Cerveaux',
+    ]
+    var titre = Math.floor(randomdtc.length*Math.random())
+    var affichée = randomdtc[titre];
+
+
+
+    document.querySelector('h2').textContent=affichée
+
+  </script>
+</body>
+</html>
