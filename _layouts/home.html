@@ -1,15 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="description" content="{{ site.description }}">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/main.css">
-  <title>{{ site.title }} — {{ page.title }}</title>
-  <link rel="canonical" href="{{ site.url }}" />
-</head>
-<body>
+---
+layout: base
+---
+
   <article class="container promo">
     <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
 
@@ -39,5 +31,4 @@
   </section>
 
   {% include footer.html %}
-</body>
-</html>
+
