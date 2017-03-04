@@ -119,14 +119,3 @@ La charte est consultable sur le Web sur https://github.com/dtc-innovation/dna/c
 # Article 7 : Dissolution
 
 En cas de dissolution décidée à l’unanimité par l’ensemble des Membres Noyau, un ou plusieurs liquidateurs sont nommés. Les Membres Noyau décident de la destination des actifs restants.
-
-
-
-
-Les présents statuts ont été approuvés par l’assemblée constitutive du ………….
-
-Fait à ………………………………, le ……………………………….
-
-
-
-Le président et les Membres Fondateurs (signatures originales) 
