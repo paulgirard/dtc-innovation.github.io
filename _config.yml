@@ -12,6 +12,12 @@ collections:
       github: GitHub Project
       website: Website
 
+company:
+  siren: '823553557'
+  siret: '82355355700013'
+  tva: 'FR67823553557'
+  since: 2016-09-16
+
 # Build settings
 markdown: kramdown
 
