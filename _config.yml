@@ -21,6 +21,9 @@ company:
 # Build settings
 markdown: kramdown
 
+sass:
+  sass_dir: _sass
+
 exclude:
   - README.md
   - Gemfile
