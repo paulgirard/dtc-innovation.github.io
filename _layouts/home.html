@@ -2,33 +2,43 @@
 layout: base
 ---
 
-  <article class="container promo">
+  <header class="container promo">
     <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
 
-    {{ content }}
-  </article>
+    <h2 class="subtitle" data-random="{{ site.data.dtc.random | jsonify | xml_escape }}">{{ site.description }}</h2>
 
-  <section class="container-strip">
+    {{ content }}
+  </header>
+
+  <section>
     <header class="container">
-      <h1 class="col-md-12 clear">Project Highlights</h1>
+      <h1>Project Highlights</h1>
     </header>
 
-    <div class="faux-accordion container">
-    {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
-    {% for project in projects %}
-    {% include projects/card-in-list.html project=project %}
-    {% endfor %}
+    <div class="container container--large">
+      <div class="grid grid--large">
+      {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+      {% for project in projects %}
+      {% include projects/card-in-list.html project=project %}
+      {% endfor %}
+      </div>
     </div>
   </section>
 
-  <section class="container">
-    <h1 class="col-md-12 clear">About us</h1>
+  <section class="grid">
+    <header class="container">
+      <h1>About us</h1>
+    </header>
 
-    {% for person_hash in site.data.team %}
-    {% assign id = person_hash[0] %}
-    {% assign person = person_hash[1] %}
-    {% include team/card-in-list.html person=person id=id %}
-    {% endfor %}
+    <div class="container container--large">
+      <div class="grid grid--large">
+      {% for person_hash in site.data.team %}
+      {% assign id = person_hash[0] %}
+      {% assign person = person_hash[1] %}
+      {% include team/card-in-list.html person=person id=id %}
+      {% endfor %}
+      </div>
+    </div>
   </section>
 
   {% include footer.html %}
