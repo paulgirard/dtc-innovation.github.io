@@ -15,8 +15,11 @@
     <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>
 
+    {% if project.next_stage %}
     <dt>Next Stage</dt>
     <dd>{{ project.next_stage }}</dd>
+    {% endif %}
+
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources %}
     <dt>Additional Resources</dt>

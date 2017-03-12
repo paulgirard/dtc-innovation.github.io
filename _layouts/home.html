@@ -14,7 +14,8 @@ layout: base
     </header>
 
     <div class="faux-accordion container">
-    {% for project in site.projects %}
+    {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+    {% for project in projects %}
     {% include projects/card-in-list.html project=project %}
     {% endfor %}
     </div>
@@ -31,4 +32,3 @@ layout: base
   </section>
 
   {% include footer.html %}
-
