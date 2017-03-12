@@ -5,12 +5,14 @@
     <dt class="hidden-from-ui">Summary</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
+    {% comment %}
     <dt class="hidden-from-ui"></dt>
     <dd>
       <ul>{% for label in project.labels %}
         <li>{{ label }}</li>
       {% endfor %}</ul>
     </dd>
+    {% endcomment %}
 
     <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>
