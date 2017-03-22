@@ -174,7 +174,13 @@ pre > code {
   margin: 0 auto;
   padding: 0 0.75rem;
 }
-
+footer.container {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+.container--centered {
+  text-align: center;
+}
 .container--large {
   max-width: 1024px;
 }
