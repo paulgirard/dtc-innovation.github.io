@@ -3,11 +3,10 @@ tag_text: dtc innovation
 description: Designing Technology for the Commons.
 baseurl: ""
 
-font-awesome-include: false
-
 collections:
   projects:
-    render: true
+    output: true
+    permalink: /projects/:title
     resources:
       github: GitHub Project
       website: Website
@@ -17,6 +16,18 @@ company:
   siret: '82355355700013'
   vat: 'FR67823553557'
   since: 2016-09-16
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
 
 # Build settings
 markdown: kramdown
@@ -28,3 +39,6 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+
+gems:
+  - jekyll-seo-tag
