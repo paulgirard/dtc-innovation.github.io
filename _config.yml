@@ -3,6 +3,8 @@ tag_text: dtc innovation
 description: Designing Technology for the Commons.
 baseurl: ""
 
+permalink: /writings/:year/:title
+
 collections:
   projects:
     output: true
@@ -22,7 +24,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: "page"
+      layout: "writing"
   - scope:
       path: ""
       type: "projects"
@@ -42,3 +44,4 @@ exclude:
 
 gems:
   - jekyll-seo-tag
+  - jekyll-feed
