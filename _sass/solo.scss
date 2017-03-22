@@ -14,12 +14,6 @@ body {
   color: #333;
 }
 
-@media (min-width: 30rem) {
-  body {
-    margin-top: 5rem;
-  }
-}
-
 a {
   color: #0074d9; /* From http://clrs.cc */
   text-decoration: none;
@@ -207,17 +201,25 @@ footer.container {
 }
 
 .list-inline {
+  padding: 0;
+
   > li {
     display: inline;
+  }
+
+  .active {
+    font-weight: bold;
   }
 
   &.list-inline--dotted {
     > li:before {
       content: "•";
+      margin-right: .5rem;
     }
 
     > li:first-of-type:before {
       content: "";
+      margin-right: 0;
     }
   }
 }

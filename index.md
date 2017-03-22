@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Project design, digital innovation, rapid prototyping and web engineering services.
+menu_title: Home
+menu_order: 1
 ---
 
 <span id="ref-services"></span>
