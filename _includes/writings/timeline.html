@@ -1,7 +1,7 @@
 {% assign writings = include.writings %}
 <ul class="timeline">
   {% for post in writings %}
-  <li class="timeline__item">
+  <li class="timeline__item" lang="{{ post.lang | default: 'en' }}">
     <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
 
 
