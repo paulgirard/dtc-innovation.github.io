@@ -1,0 +1,21 @@
+---
+title: Writings
+layout: base
+---
+
+<header class="container promo">
+  <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
+
+  <h2 class="subtitle">{{ site.description }}</h2>
+</header>
+
+<article class="container">
+  {{ content }}
+</article>
+
+<nav class="container">
+  {% include writings/timeline.html writings=site.posts %}
+</nav>
+
+
+{% include footer.html %}
