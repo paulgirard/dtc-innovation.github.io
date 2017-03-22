@@ -11,5 +11,4 @@ next_stage:
 resources:
   github: https://github.com/6elements
   website: https://6elements.fr
-milestones:
 ---

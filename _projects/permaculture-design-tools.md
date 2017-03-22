@@ -7,6 +7,5 @@ labels:
 - Business Tools
 - Open Data
 current_stage: Project Pitch
-next_stage: 
-milestones:
+next_stage:
 ---

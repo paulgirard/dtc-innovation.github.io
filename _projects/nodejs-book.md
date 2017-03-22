@@ -11,6 +11,5 @@ current_stage: Writing and peer reviews
 next_stage: Grand review
 resources:
   github: https://github.com/oncletom/nodebook
-  website;: https://oncletom.io/node.js/
-milestones:
+  website: https://oncletom.io/node.js/
 ---

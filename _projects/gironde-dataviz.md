@@ -10,5 +10,4 @@ current_stage: Design & Development
 next_stage: Private beta
 resources:
   github: https://github.com/dtc-innovation/dataviz-finances-gironde
-milestones:
 ---
