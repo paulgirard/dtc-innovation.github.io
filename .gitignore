@@ -54,3 +54,7 @@ build-iPhoneSimulator/
 _site/
 .sass-cache/
 .jekyll-metadata
+
+# Node
+node_modules
+!node_modules/avalanche-css

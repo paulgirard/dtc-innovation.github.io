@@ -2,33 +2,39 @@
 layout: base
 ---
 
-  <article class="container promo">
+  <header class="container promo">
     <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
 
-    {{ content }}
-  </article>
+    <h2 class="subtitle">{{ site.description }}</h2>
 
-  <section class="container-strip">
-    <header class="container">
-      <h1 class="col-md-12 clear">Project Highlights</h1>
+    {{ content }}
+  </header>
+
+  <section class="container container--large">
+    <header>
+      <h1 class="text--center">Project Highlights</h1>
     </header>
 
-    <div class="faux-accordion container">
-    {% for project in site.projects %}
+    <div class="grid grid--large">
+    {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+    {% for project in projects %}
     {% include projects/card-in-list.html project=project %}
     {% endfor %}
     </div>
   </section>
 
-  <section class="container">
-    <h1 class="col-md-12 clear">About us</h1>
+  <section class="container container--large">
+    <header>
+      <h1 class="text--center">About us</h1>
+    </header>
 
+    <div class="grid grid--large">
     {% for person_hash in site.data.team %}
     {% assign id = person_hash[0] %}
     {% assign person = person_hash[1] %}
     {% include team/card-in-list.html person=person id=id %}
     {% endfor %}
+    </div>
   </section>
 
   {% include footer.html %}
-

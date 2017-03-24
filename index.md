@@ -4,12 +4,6 @@ title: Project design, digital innovation, rapid prototyping and web engineering
 ---
 
 <span id="ref-services"></span>
-We are an agile, pluridisciplinary and distributed team who design **ideas**, do **rapid prototyping** and **engineer web services**[☨](#footnote-services).
+We are a _pluridisciplinary_ team of people who bring **user&ndash;centric innovation**, **web expertise** and **co-operation practices** to your team and products.
 
-We like to work with **environmental**, **educational** and **social economy** _companies_, _nonprofit organisations_ and _public services_.
-
-We believe in **openness**, **exemplarity** and **knowledge**.
-
-<footer class="footnote" id="footnote-services">
-  <p><a href="#ref-services">☨</a> Our code is open source, InfoSec compliant and secure <em>by default</em>.</p>
-</footer>
+It translates into **iterative design thinking**, **agile software development** and **bespoke training consultancy** services - _remotely_ and _in house_.

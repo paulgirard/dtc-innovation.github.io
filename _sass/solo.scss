@@ -9,7 +9,7 @@ html {
 
 body {
   margin: 2rem 0 5rem;
-  color: #222;
+  color: #333;
 }
 
 @media (min-width: 30rem) {
@@ -28,11 +28,15 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 0.5rem -0.1rem /* align left edge */;
+  margin: 0 0 0.75em -0.1rem /* align left edge */;
   color: #111;
   text-rendering: optimizeLegibility;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
-  line-height: 1.35
+  line-height: 1.35;
+
+  a {
+    color: inherit;
+  }
 }
 
 @media (max-width: 750px) {
@@ -42,65 +46,40 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.main-title {
-  font-weight: bold;
-  margin-bottom: 7rem;
-}
-
-h1 {
+h1, .h1 {
   font-size: 2.5rem;
-  margin-bottom: 3.75rem;
-  font-weight: 100;
-  margin-left: -2rem;
-  margin-right: -2rem;
+  font-weight: bold;
+  text-align: left;
 }
 
-@media (min-width: 30rem) {
-  h1 {
-    font-size: 4rem;
-    margin-bottom: 3.75rem;
-  }
-}
-
-h1 a {
-  color: inherit;
-}
-
-h2 {
+h2, .h2 {
   margin-top: 2rem;
   font-size: 1.75rem;
   font-weight: 500;
-  margin-bottom: 5rem;
   color: #555;
-  text-align: right;
-  margin-right: -4rem;
 }
 
 @media (min-width: 30rem) {
-  h2 {
+  h2, .h2 {
     margin-top: 2.5rem;
-    font-size: 1.75rem;
-    margin-bottom: 8rem;
-    margin-right: -4rem;
   }
 }
 
-h3 {
-  margin: 2rem -2rem 1.75rem -2rem;
+h3, .h3 {
+  color: #555;
+  font-size: 1.5rem;
+  font-weight: 100;
   margin-top: 2rem;
-  font-size: 1.75rem;
 }
 
 @media (min-width: 30rem) {
   h3 {
     margin-top: 2.5rem;
-    font-size: 2rem;
-    margin-bottom: 1.5rem;
   }
 }
 
 h4, h5, h6 {
-  margin: 1.5rem -1rem 1.5rem -1rem;
+  margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 
@@ -136,6 +115,10 @@ blockquote p:last-child {
 .center {
   display:inline-block;
   margin: 0 auto;
+}
+
+.text--center {
+  text-align: center;
 }
 
 hr {
@@ -201,8 +184,8 @@ pre > code {
   padding: 0 0.75rem;
 }
 
-.sharing {
-  text-align: center;
+.container--large {
+  max-width: 1024px;
 }
 
 .date {
@@ -211,9 +194,35 @@ pre > code {
   font-style: italic;
 }
 
-@media (max-width: 635px) {
-  .sharing {
-    font-size: 85%;
+.main-title {
+  font-size: 4rem;
+  margin-bottom: 7rem;
+}
+
+.subtitle {
+  margin-top: -7rem;
+  margin-right: 0;
+  text-align: left;
+}
+
+.promo,
+.main-title + .subtitle {
+  margin-bottom: 3.75rem;
+}
+
+.list-inline {
+  > li {
+    display: inline;
+  }
+
+  &.list-inline--dotted {
+    > li:before {
+      content: "•";
+    }
+
+    > li:first-of-type:before {
+      content: "";
+    }
   }
 }
 

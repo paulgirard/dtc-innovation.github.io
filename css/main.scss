@@ -3,11 +3,17 @@
 ---
 @charset "utf-8";
 
+$av-enable-grid-center: true;
+$av-enable-grid-cell-center: true;
+$av-enable-grid-large: true;
+$av-widths: ( 2, 3, 4 );
+
+@import '../node_modules/avalanche-css/_avalanche.scss';
+
 @import
   'normalize',
   'solo',
   'promo',
-  'grid',
   'cards',
   'forms',
   'responsive',

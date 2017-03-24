@@ -1,22 +1,27 @@
-<article class="card-in-list col-md-4" id="project-{{ project.slug }}">
+<article class="card-in-list grid__cell 1/3--desk 1/2" id="project-{{ project.slug }}">
   <h2>{{ project.name }}</h2>
 
   <dl class="def-as-list">
     <dt class="hidden-from-ui">Summary</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
+    {% comment %}
     <dt class="hidden-from-ui"></dt>
     <dd>
       <ul>{% for label in project.labels %}
         <li>{{ label }}</li>
       {% endfor %}</ul>
     </dd>
+    {% endcomment %}
 
     <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>
 
+    {% if project.next_stage %}
     <dt>Next Stage</dt>
     <dd>{{ project.next_stage }}</dd>
+    {% endif %}
+
     {% assign collection = site.collections | where:'label',project.collection | first %}
     {% if project.resources %}
     <dt>Additional Resources</dt>
