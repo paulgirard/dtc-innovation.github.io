@@ -2,8 +2,26 @@ body .responsive-img {
   margin: 0;
   max-width: 75%;
 
-  @media(min-width: 636px) {
+  @include av-mq('lap-and-up') {
     max-width: 100%;
+  }
+}
+
+.main-navigation {
+  color: $light-gray;
+  text-align: center;
+}
+
+.page-footer-pre {
+
+  &,
+  & h1 {
+    color: $gray;
+  }
+
+
+  h1 {
+    @extend .h2;
   }
 }
 

@@ -10,34 +10,30 @@ layout: base
     {{ content }}
   </header>
 
-  <section>
-    <header class="container">
-      <h1>Project Highlights</h1>
+  <section class="container container--large">
+    <header>
+      <h1 class="text--center">Project Highlights</h1>
     </header>
 
-    <div class="container container--large">
-      <div class="grid grid--large">
-      {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
-      {% for project in projects %}
-      {% include projects/card-in-list.html project=project %}
-      {% endfor %}
-      </div>
+    <div class="grid grid--large">
+    {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+    {% for project in projects %}
+    {% include projects/card-in-list.html project=project %}
+    {% endfor %}
     </div>
   </section>
 
-  <section class="grid">
-    <header class="container">
-      <h1>About us</h1>
+  <section class="container container--large">
+    <header>
+      <h1 class="text--center">About us</h1>
     </header>
 
-    <div class="container container--large">
-      <div class="grid grid--large">
-      {% for person_hash in site.data.team %}
-      {% assign id = person_hash[0] %}
-      {% assign person = person_hash[1] %}
-      {% include team/card-in-list.html person=person id=id %}
-      {% endfor %}
-      </div>
+    <div class="grid grid--large">
+    {% for person_hash in site.data.team %}
+    {% assign id = person_hash[0] %}
+    {% assign person = person_hash[1] %}
+    {% include team/card-in-list.html person=person id=id %}
+    {% endfor %}
     </div>
   </section>
 

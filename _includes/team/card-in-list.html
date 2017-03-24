@@ -1,14 +1,11 @@
-<article class="card-in-list grid__cell 1/3">
-  <h2>{{ person.name }}</h2>
-
+<article class="card-in-list grid__cell 1/3--desk 1/2">
   <figure>
     <img src="{{ site.baseurl}}/images/team/{{ id }}.jpg" alt="Profile picture of {{ person.name }}" class="responsive-img">
   </figure>
 
-  <dl class="def-as-list">
-    <dt class="hidden-from-ui">Main Education</dt>
-    <dd>{{ person.main_education }}</dd>
+  <h2>{{ person.name }}</h2>
 
+  <dl class="def-as-list">
     <dt class="hidden-from-ui">Fluent In</dt>
     <dd class="main">{{ person.short_description }}</dd>
 
