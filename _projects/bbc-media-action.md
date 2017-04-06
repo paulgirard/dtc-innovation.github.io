@@ -1,30 +1,51 @@
 ---
-name: BBC Media Action Trainings
+name: BBC Media Action Training
 short_description: |
   Strategic web development courses to enable public media companies to deliver better online products and services.
 labels:
-- Trainings
+- Training
+- Web Development
 highlights_order: 3
-current_stage: On site (Algeria)
-next_stage: Retrospective
+current_stage: Retrospective
+next_stage:
 resources:
 ---
 
 We design and deliver **web development courses** in partnership with [Beyond Broadcasting][bb] and [BBC Media Action][bbcma].
 
-Web development courses have been provided to _EPTV_ in Algeria in Spring 2017.
+Training is based on **hands-on exercises** tailored for an audience with a **broad range of skills**, from video editors to programmers and journalists.
 
 ### Front-end web development course
 
-Modern ways of building front-end applications and visual components with HTML5, CSS and vanilla JavaScript.
+Frontend skills are brought to the trainees by **turning a real world graphic design** into **HTML and CSS components**.
 
-### Back-end web development
+Trainees get to learn about the following elements:
 
+* CSS frameworks;
+* content encoding;
+* responsive webdesign;
+* HTML and CSS 101.
 
+### Website Development
 
-### Visual language web development
+The **Model/View/Presenter paradigm** is brought to the trainees by integrating their HTML and CSS into a **static website generator**. Knowledge is then applied to a dynamic framework (like _Laravel_) to illustrate the same concepts with a programming language and a database server.
 
-Bringing designers and developers together to create **reusable visual components** and a **living styleguide**.
+Trainees get to learn about the following elements:
+
+* code collaboration with git branching model;
+* templating a data-driven website;
+* evaluating and addressing web performance.
+
+### Designing a Living Styleguide
+
+Designers and developers are brought together to create **reusable visual components** via a **living styleguide**. HTML and CSS components are abstracted into self-documented templates which can then be reused in any projects.
+
+Trainees get to learn about the following elements:
+
+* visual language and how to design one;
+* state of the art of living styleguides;
+* building our own styleguide with a static website generator;
+* managing SVG assets.
 
 [bb]: http://beyondbroadcasting.co.uk
-[bbcma]: http://bbcmediaaction.org
+[bbcma]: http://www.bbc.co.uk/mediaaction/
