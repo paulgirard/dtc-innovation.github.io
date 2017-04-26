@@ -1,10 +1,12 @@
 html {
-  font: 18px/1.6 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font: 120%/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
 
 @media (max-width: 325px) {
-  html { font: 17px/1.6 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif; }
+  html {
+    font: 100%/1.5 "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  }
 }
 
 body {
@@ -28,7 +30,7 @@ a:hover, a:focus {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 0.75em -0.1rem /* align left edge */;
+  margin: 0 0 0 -0.1rem /* align left edge */;
   color: #111;
   text-rendering: optimizeLegibility;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
@@ -47,39 +49,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 4.23077em;
   font-weight: bold;
+  padding: 1.55452em 0;
   text-align: left;
 }
 
 h2, .h2 {
-  margin-top: 2rem;
-  font-size: 1.75rem;
-  font-weight: 500;
   color: #555;
+  font-size: 2.61538em;
+  font-weight: 500;
+  padding: 1.54402em 0;
 }
 
-@media (min-width: 30rem) {
-  h2, .h2 {
-    margin-top: 2.5rem;
-  }
-}
 
 h3, .h3 {
   color: #555;
-  font-size: 1.5rem;
+  font-size: 1.61538em;
   font-weight: 100;
-  margin-top: 2rem;
-}
-
-@media (min-width: 30rem) {
-  h3 {
-    margin-top: 2.5rem;
-  }
+  padding: 1.57127em 0;
 }
 
 h4, h5, h6 {
-  margin-top: 1.5rem;
   font-size: 1.5rem;
 }
 
@@ -195,15 +186,14 @@ pre > code {
 }
 
 .main-title {
-  font-size: 4rem;
-  margin-bottom: 7rem;
+  margin-top: 0;
+  padding: 0;
 }
 
 .subtitle {
-  margin-top: -7rem;
-  margin-right: 0;
-  text-align: left;
+  font-size: 1.5em;
 }
+
 
 .promo,
 .main-title + .subtitle {
