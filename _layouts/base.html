@@ -2,6 +2,22 @@
 <html lang="en">
   {% include head.html %}
   <body>
+    <nav class="main-navigation">
+      <ul class="list-inline list-inline--dotted">
+        {% assign pages = site.pages | where_exp: 'p', 'p.menu_title' | sort: 'menu_order' %}
+        {% for p in pages %}
+        {% assign menu_class = '' %}
+        {% if p.url != '/' and page.url contains p.url %}{% assign menu_class = 'active' %}{% endif %}
+        {% if p.url == '/' and page.url == p.url %}{% assign menu_class = 'active' %}{% endif %}
+        <li>
+          <a class="{{ menu_class }}" href="{{ p.url | relative_url }}">{{ p.menu_title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {% include header.html %}
+    
     {{content}}
   </body>
 </html>

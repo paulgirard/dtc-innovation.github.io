@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<article class="container">
+  <header>
+    <h1>{{ page.name }}</h1>
+  </header>
+
+  {{ page.short_description }}
+</article>
+
+{% assign project_writings = site.posts | where: 'projects', page.slug %}
+{% unless project_writings == empty %}
+<nav class="container">
+  <h2>Project News</h2>
+
+  {% include writings/timeline.html writings=project_writings %}
+</nav>
+{% endunless %}
+
+<article class="container">
+  <h2>Project Context</h2>
+
+  {{ page.content }}
+</article>
+
+{% include footer.html %}

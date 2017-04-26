@@ -1,0 +1,21 @@
+---
+layout: base
+---
+
+<article class="container">
+  {{ content }}
+</article>
+
+<section>
+  <div class="container container--large">
+    <div class="grid grid--large">
+    {% assign projects = site.projects | sort: "title"  %}
+    {% for project in projects %}
+    {% include projects/card-in-list.html project=project %}
+    {% endfor %}
+    </div>
+  </div>
+</section>
+
+
+{% include footer.html %}

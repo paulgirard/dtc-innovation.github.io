@@ -1,13 +1,9 @@
 ---
 layout: base
 ---
-
-  <header class="container promo">
-    <h1 class="main-title"><a href="./">{{ site.tag_text }}</a></h1>
-    <p class="subtitle">{{ site.description }}</p>
-
+  <article class="container">
     {{ content }}
-  </header>
+  </article>
 
   <section class="container container--large">
     <header>
@@ -20,6 +16,10 @@ layout: base
     {% include projects/card-in-list.html project=project %}
     {% endfor %}
     </div>
+
+    <footer class="container container--centered">
+      <a href="{{ site.baseurl }}/projects/" class="btn btn--large btn--browse">Browse all projects…</a>
+    </footer>
   </section>
 
   <section class="container container--large">

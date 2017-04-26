@@ -1,0 +1,46 @@
+@import 'dtc';
+
+$timeline-dot-width: 10px;
+$timeline-dot-border-width: 2px;
+
+.timeline {
+  list-style: none;
+  position: relative;
+
+  &:before {
+    background: $light-gray;
+    bottom: 0;
+    content: "";
+    left: ($timeline-dot-width + $timeline-dot-border-width) / 2;
+    position: absolute;
+    top: 0;
+    width: $timeline-dot-border-width;
+    z-index: -1;
+  }
+
+  .timeline__item {
+    position: relative;
+
+    time {
+      color: $gray;
+      font-size: .8em;
+    }
+
+    a[rel="permalink"] {
+      font-weight: bold;
+    }
+
+    &:before {
+      background: #fff;
+      border: $timeline-dot-border-width solid $gray;
+      border-radius: 50%;
+      content: "";
+      display: block;
+      height: $timeline-dot-width;
+      left: -1.5rem;
+      margin: .35rem 0;
+      position: absolute;
+      width: $timeline-dot-width;
+    }
+  }
+}

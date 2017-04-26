@@ -1,0 +1,15 @@
+{% assign writings = include.writings %}
+<ul class="timeline">
+  {% for post in writings %}
+  <li class="timeline__item">
+    <a href="{{ post.url | relative_url }}" rel="permalink">{{ post.title }}</a>
+
+
+    <time datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: '%B %Y' }}
+    </time>
+
+    <div class="timeline__excerpt">{{ post.excerpt }}</div>
+  </li>
+  {% endfor %}
+</ul>

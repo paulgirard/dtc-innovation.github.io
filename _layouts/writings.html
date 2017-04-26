@@ -1,0 +1,15 @@
+---
+title: Writings
+layout: base
+---
+
+<article class="container">
+  {{ content }}
+</article>
+
+<nav class="container">
+  {% include writings/timeline.html writings=site.posts %}
+</nav>
+
+
+{% include footer.html %}
