@@ -1,0 +1,25 @@
+cd33:
+  name: Gironde County
+  url: https://gironde.fr/
+  location: France
+  has_logo: false
+bbcma:
+  name: BBC Media Action
+  url: https://www.bbc.co.uk/mediaaction/
+  location: United Kingdom
+  has_logo: false
+datagouv:
+  name: data.gouv.fr
+  url: https://data.gouv.fr/
+  location: France
+  has_logo: false
+nouvelle-aquitaine:
+  name: Nouvelle Aquitaine Region
+  url: https://www.nouvelle-aquitaine.fr/
+  location: France
+  has_logo: false
+opendata-france:
+  name: Open Data France
+  url: http://www.opendatafrance.net/
+  location: France
+  has_logo: false

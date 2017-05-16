@@ -8,6 +8,8 @@ labels:
 - User Interfaces
 - Web Development
 current_stage: Prototype
+customers:
+- nouvelle-aquitaine
 next_stage:
 resources:
   github: https://github.com/6elements

@@ -1,11 +1,13 @@
 ---
-name: Budget Datavizualisation
+name: Finances Data Vizualisation
 short_description: |
   Provide a lean and empowering access of the public budget to citizens and local administration.
 labels:
 - User Interfaces
 - Open Data
 highlights_order: 1
+customers:
+- cd33
 current_stage: Design & Development
 next_stage: Private beta
 resources:
