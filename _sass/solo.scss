@@ -200,6 +200,10 @@ footer.container {
   margin-bottom: 3.75rem;
 }
 
+h1.h2 + .subtitle {
+  margin-top: -1.54402em; /* same as h2 padding property */
+}
+
 .list-inline {
   padding: 0;
 

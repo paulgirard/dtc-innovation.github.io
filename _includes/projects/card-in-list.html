@@ -7,14 +7,17 @@
     <dt class="hidden-from-ui">Summary</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
-    {% comment %}
-    <dt class="hidden-from-ui"></dt>
+    {% if project.customers %}
+    <dt>Customer</dt>
     <dd>
-      <ul>{% for label in project.labels %}
-        <li>{{ label }}</li>
+      <ul class="list-inline">{% for customer_id in project.customers %}
+        {% assign customer = site.data.customers[customer_id] %}
+        <li>
+          <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
+        </li>
       {% endfor %}</ul>
     </dd>
-    {% endcomment %}
+    {% endif %}
 
     <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>

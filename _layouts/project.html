@@ -4,7 +4,14 @@ layout: base
 
 <article class="container">
   <header>
-    <h1>{{ page.name }}</h1>
+    <h1 class="h2">{{ page.name }}</h1>
+
+    {% if page.customers %}
+    <p class="subtitle">A project with {% for customer_id in page.customers %}
+      {% assign customer = site.data.customers[customer_id] %}
+        <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
+    {% endfor %}</p>
+    {% endif %}
   </header>
 
   {{ page.short_description }}
