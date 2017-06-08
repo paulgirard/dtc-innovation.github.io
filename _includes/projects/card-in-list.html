@@ -8,7 +8,7 @@
     <dd class="main">{{ project.short_description }}</dd>
 
     {% if project.customer %}
-    <dt>Customer</dt>
+    <dt>With Whom?</dt>
     <dd>
       <ul class="list-inline">{% assign customer_id = project.customer %}
         {% assign customer = site.data.customers[customer_id] %}

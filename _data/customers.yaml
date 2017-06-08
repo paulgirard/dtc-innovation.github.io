@@ -8,7 +8,7 @@ bbcma:
   url: https://www.bbc.co.uk/mediaaction/
   location: United Kingdom
   has_logo: false
-datagouv:
+etalab:
   name: data.gouv.fr
   url: https://data.gouv.fr/
   location: France
