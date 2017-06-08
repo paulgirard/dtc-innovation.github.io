@@ -1,16 +1,17 @@
 ---
-name: Finances Data Vizualisation
-short_description: |
-  Provide a lean and empowering access of the public budget to citizens and local administration.
+name: Public Finance Transparency
+short_description: >
+  Provide a lean and empowering access of the public budget to citizens and
+  local administration.
 labels:
-- User Interfaces
-- Open Data
-highlights_order: 1
+  - User Interfaces
+  - Open Data
 customer: cd33
+highlights_order: 1
 current_stage: Design & Development
 next_stage: Private beta
 resources:
-  github: https://github.com/dtc-innovation/dataviz-finances-gironde
+  github: 'https://github.com/dtc-innovation/dataviz-finances-gironde'
 ---
 
 We **design and develop** _open source software_ and _graphic materials_ for the Gironde county in order to illustrate their annual budget and financial report.
@@ -34,3 +35,4 @@ We facilitate **focus groups** with county agents to reflect their mission and f
 We use **React** and the **Redux** pattern to drive the user interface with data and user interactions.
 
 Editorial content is managed with a collaborative spreadsheet which becomes a datasource of the React application.
+
