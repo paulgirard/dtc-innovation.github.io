@@ -1,15 +1,16 @@
 ---
 name: Web Development Training
-short_description: |
-  Strategic web development courses to enable public media companies to deliver better online products and services.
+short_description: >
+  Strategic web development courses to enable public media companies to deliver
+  better online products and services.
 labels:
-- Training
-- Web Development
+  - Training
+  - Web Development
 customer: bbcma
 highlights_order: 3
-current_stage: Retrospective
-next_stage:
-resources:
+current_stage: Mission Complete
+next_stage: null
+resources: null
 ---
 
 We design and deliver **web development courses** in partnership with [Beyond Broadcasting][bb] and [BBC Media Action][bbcma].
@@ -50,3 +51,4 @@ Trainees get to learn about the following elements:
 
 [bb]: http://beyondbroadcasting.co.uk
 [bbcma]: http://www.bbc.co.uk/mediaaction/
+
