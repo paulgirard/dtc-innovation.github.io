@@ -49,6 +49,7 @@ collections:
       - label: "Resources"
         name: "resources"
         widget: "object"
+        required: false
         fields:
           - label: "GitHub"
             name: "github"
