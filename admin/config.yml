@@ -19,20 +19,20 @@ collections:
         name: "name"
         widget: "string"
         tagname: "h1"
-      - label: "Body"
-        name: "body"
-        widget: "markdown"
       - label: "Short Description"
         name: "short_description"
         widget: "string"
-      - label: "Labels"
-        name: "labels"
-        widget: "list"
-        required: false
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
       - label: "Customer"
         name: "customer"
         widget: "select"
         options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]
+        required: false
+      - label: "Labels"
+        name: "labels"
+        widget: "list"
         required: false
       - label: "Highlight Order"
         name: "highlights_order"
@@ -54,10 +54,8 @@ collections:
           - label: "GitHub"
             name: "github"
             widget: "string"
-            pattern: ["^https://github.com/", ""]
             required: false
           - label: "Website"
             name: "website"
             widget: "string"
             required: false
-            pattern: ["^https?", ""]
