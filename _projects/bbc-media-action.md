@@ -7,7 +7,7 @@ labels:
 - Web Development
 customer: bbcma
 highlights_order: 3
-current_stage: Retrospective
+current_stage: Mission complete
 next_stage:
 resources:
 ---

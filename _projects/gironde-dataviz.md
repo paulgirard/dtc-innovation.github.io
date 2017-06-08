@@ -35,4 +35,3 @@ We facilitate **focus groups** with county agents to reflect their mission and f
 We use **React** and the **Redux** pattern to drive the user interface with data and user interactions.
 
 Editorial content is managed with a collaborative spreadsheet which becomes a datasource of the React application.
-
