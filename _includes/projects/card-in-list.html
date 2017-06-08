@@ -7,15 +7,15 @@
     <dt class="hidden-from-ui">Summary</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
-    {% if project.customers %}
+    {% if project.customer %}
     <dt>Customer</dt>
     <dd>
-      <ul class="list-inline">{% for customer_id in project.customers %}
+      <ul class="list-inline">{% assign customer_id = project.customer %}
         {% assign customer = site.data.customers[customer_id] %}
         <li>
           <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
         </li>
-      {% endfor %}</ul>
+      </ul>
     </dd>
     {% endif %}
 

@@ -6,8 +6,7 @@ labels:
 - User Interfaces
 - Open Data
 highlights_order: 1
-customers:
-- cd33
+customer: cd33
 current_stage: Design & Development
 next_stage: Private beta
 resources:

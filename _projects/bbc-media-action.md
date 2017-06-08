@@ -5,8 +5,7 @@ short_description: |
 labels:
 - Training
 - Web Development
-customers:
-- bbcma
+customer: bbcma
 highlights_order: 3
 current_stage: Retrospective
 next_stage:
