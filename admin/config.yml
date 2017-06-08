@@ -15,17 +15,48 @@ collections:
     folder: "_projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
-      - {label: "Name", name: "name", widget: "string", tagname: "h1"}
-      - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Short Description", name: "short_description", widget: "string"}
-      - {label: "Labels", name: "labels", widget: "list"}
-      - {label: "Customer", name: "customer", widget: "select", options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]}
-      - {label: "Highlight Order", name: "highlights_order", widget: "number"}
-      - {label: "Current Stage", name: "current_stage", widget: "string"}
-      - {label: "Next Stage", name: "next_stage", widget: "string"}
+      - label: "Name"
+        name: "name"
+        widget: "string"
+        tagname: "h1"
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Short Description"
+        name: "short_description"
+        widget: "string"
+      - label: "Labels"
+        name: "labels"
+        widget: "list"
+        required: false
+      - label: "Customer"
+        name: "customer"
+        widget: "select"
+        options: ["", {% for d in site.data.customers %}{{ d[0] | jsonify }},{% endfor %}]}
+        required: false
+      - label: "Highlight Order"
+        name: "highlights_order"
+        widget: "number"
+        required: false
+      - label: "Current Stage"
+        name: "current_stage"
+        widget: "string"
+        required: false
+      - label: "Next Stage"
+        name: "next_stage"
+        widget: "string"
+        required: false
       - label: "Resources"
         name: "resources"
         widget: "object"
         fields:
-          - {label: "GitHub", name: "github", widget: "string" }
-          - {label: "Website", name: "website", widget: "string" }
+          - label: "GitHub"
+            name: "github"
+            widget: "string"
+            pattern: ["^https://github.com/", ""]
+            required: false
+          - label: "Website"
+            name: "website"
+            widget: "string"
+            required: false
+            pattern: ["^https?", ""]
