@@ -7,7 +7,7 @@ short_description: |
 labels:
 - Publishing
 - Content Design
-highlights_order: 3
+highlights_order: null
 current_stage: Writing
 next_stage: Publisher review
 resources:
