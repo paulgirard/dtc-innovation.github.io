@@ -1,5 +1,5 @@
 ---
-name: Node.js Book
+name: Learning Node.js
 short_description: |
   Modern ways of writing web and non-web applications with the Node.js platform.
 
@@ -7,9 +7,9 @@ short_description: |
 labels:
 - Publishing
 - Content Design
-highlights_order: 2
-current_stage: Writing and peer reviews
-next_stage: Grand review
+highlights_order: 3
+current_stage: Writing
+next_stage: Publisher review
 resources:
   github: https://github.com/oncletom/nodebook
   website: https://oncletom.io/node.js/
