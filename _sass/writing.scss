@@ -1,0 +1,9 @@
+.writing {
+  .writing__headline {
+    @extend .h2;
+  }
+}
+
+.writing .metadata {
+  margin-top: -3em;
+}

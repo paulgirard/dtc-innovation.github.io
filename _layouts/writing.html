@@ -1,0 +1,36 @@
+---
+layout: base
+---
+{% assign project = site.projects | where: 'slug', page.projects | first %}
+
+<article class="container writing">
+  <header>
+    <h1 class="writing__headline">{{ page.title }}</h1>
+
+    <p class="subtitle metadata">
+      {{ page.category | default: 'Writing' }}
+      {% if project %}
+      about the <em><a href="{{ project.url | relative_url }}/">{{ project.name }}</a> project</em>
+      {% endif %}
+      published in
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %Y' }}</time>.
+    </p>
+  </header>
+
+  {{ content }}
+
+  <footer>
+    <h2 class="h3">Do you want to read some more?</h2>
+
+    <p>
+      Browse some of our <a href="{{ '/writings/' | relative_url }}">general writings</a>{% unless project %}.{% endunless %}
+
+      {% if project %}
+      or rather some <a href="{{ project.url | relative_url }}/#project-writings">writings specific to <strong>{{ project.name }}</strong></a>.
+      {% endif %}
+    </p>
+
+  </footer>
+</article>
+
+{% include footer.html %}

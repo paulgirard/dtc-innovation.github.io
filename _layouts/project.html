@@ -1,26 +1,29 @@
 ---
 layout: base
 ---
+{% assign customer = site.data.customers[ page.customer ] %}
+{% assign project_writings = site.posts | where: 'projects', page.slug %}
 
 <article class="container">
   <header>
     <h1 class="h2">{{ page.name }}</h1>
 
-    {% if page.customer %}
-    <p class="subtitle">A project with
-      {% assign customer = site.data.customers[page.customer] %}
-        <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
+    {% if customer %}
+    <p class="subtitle">
+      A project with
+      <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>.
     </p>
     {% endif %}
   </header>
 
-  {{ page.short_description }}
+  {% if page.short_description %}
+  <p>{{ page.short_description }}</p>
+  {% endif %}
 </article>
 
-{% assign project_writings = site.posts | where: 'projects', page.slug %}
 {% unless project_writings == empty %}
-<nav class="container">
-  <h2>Project News</h2>
+<nav class="container" id="project-writings">
+  <h2>Project Writings</h2>
 
   {% include writings/timeline.html writings=project_writings %}
 </nav>
