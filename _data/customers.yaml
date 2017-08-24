@@ -1,5 +1,5 @@
 cd33:
-  name: Gironde County
+  name: Département de la Gironde
   url: https://gironde.fr/
   location: France
   has_logo: false
@@ -9,12 +9,12 @@ bbcma:
   location: United Kingdom
   has_logo: false
 etalab:
-  name: data.gouv.fr
-  url: https://data.gouv.fr/
+  name: Etalab
+  url: https://www.etalab.gouv.fr/
   location: France
   has_logo: false
 nouvelle-aquitaine:
-  name: Nouvelle Aquitaine Region
+  name: Région Nouvelle Aquitaine
   url: https://www.nouvelle-aquitaine.fr/
   location: France
   has_logo: false

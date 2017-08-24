@@ -9,7 +9,7 @@ labels:
 customer: bbcma
 highlights_order: 3
 current_stage: Mission Complete
-next_stage: null
+next_stage: Designing Next Course
 resources: null
 ---
 
@@ -51,4 +51,3 @@ Trainees get to learn about the following elements:
 
 [bb]: http://beyondbroadcasting.co.uk
 [bbcma]: http://www.bbc.co.uk/mediaaction/
-

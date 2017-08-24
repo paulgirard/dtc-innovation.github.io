@@ -1,17 +1,17 @@
 ---
-name: Government Open Data
+name: data.gouv.fr
 short_description: |
-  Improving the French national Open Data platform with a better user interface and developer experience.
+  Improve France's Open Data platform with a better user experience.
 labels:
-- Open Data
-- User Interfaces
-- Web Development
+  - Open Data
+  - User Research
+  - Web Development
 highlights_order: 2
-customers:
-- etalab
-current_stage: Onboarding
-next_stage: Work Week
+customer: etalab
+current_stage: User Research
+next_stage: Developing cost-efficient features
 resources:
+  github: https://github.com/etalab/user-research
 ---
 
 We **design and develop** user facing features based on usage metrics and user interviews.
@@ -20,4 +20,4 @@ We also **advocate** the open data platform software by contributing to its docu
 
 > More to come soon…
 
-[etalab]: https://etalab.gouv.fr
+[etalab]: https://www.etalab.gouv.fr
