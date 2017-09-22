@@ -1,0 +1,19 @@
+---
+lang: fr
+title: Statuts et assemblées générales
+layout: page
+---
+
+<h2>Éléments constitutifs</h2>
+
+<ul>
+  <li><a href="statuts.html">Statuts</a></li>
+</ul>
+
+<h2>Vie courante</h2>
+
+<ol>
+{% for assembly in site.assemblies  %}
+<li><a href="{{ assembly.url }}">{{ assembly.title }}</a></li>
+{% endfor %}
+</ol>

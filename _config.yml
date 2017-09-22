@@ -13,6 +13,10 @@ collections:
     resources:
       github: GitHub Project
       website: Website
+  assemblies:
+    output: true
+    permalink: /dna/assemblies/:slug.html
+
 
 company:
   siren: '823553557'
@@ -33,6 +37,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "assemblies"
+    values:
+      layout: "page"
 
 # Build settings
 markdown: kramdown
@@ -45,6 +54,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
+plugins:
   - jekyll-seo-tag
   - jekyll-feed
