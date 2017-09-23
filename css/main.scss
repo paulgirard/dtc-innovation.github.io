@@ -4,6 +4,8 @@
 @charset "utf-8";
 
 @import
+  '../node_modules/tachyons-sass/scss/_normalize.scss',
+  '../node_modules/tachyons-sass/scss/_box-sizing.scss',
   '../node_modules/tachyons-sass/scss/_media-queries.scss',
   '../node_modules/tachyons-sass/scss/_colors.scss',
   '../node_modules/tachyons-sass/scss/_typography.scss',
@@ -27,6 +29,7 @@
   '../node_modules/tachyons-sass/scss/_spacing.scss',
   '../node_modules/tachyons-sass/scss/_negative-margins.scss',
   '../node_modules/tachyons-sass/scss/_widths.scss',
+  '../node_modules/tachyons-sass/scss/_images.scss',
   '../node_modules/tachyons-sass/scss/_utilities.scss',
   'body',
   'buttons',
