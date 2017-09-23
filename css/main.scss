@@ -3,22 +3,38 @@
 ---
 @charset "utf-8";
 
-$av-enable-grid-center: true;
-$av-enable-grid-cell-center: true;
-$av-enable-grid-large: true;
-$av-widths: ( 2, 3, 4 );
-
-@import '../node_modules/avalanche-css/_avalanche.scss';
-
 @import
-  'normalize',
-  'solo',
-  'promo',
+  '../node_modules/tachyons-sass/scss/_media-queries.scss',
+  '../node_modules/tachyons-sass/scss/_colors.scss',
+  '../node_modules/tachyons-sass/scss/_typography.scss',
+  '../node_modules/tachyons-sass/scss/_font-family.scss',
+  '../node_modules/tachyons-sass/scss/_type-scale.scss',
+  '../node_modules/tachyons-sass/scss/_font-weight.scss',
+  '../node_modules/tachyons-sass/scss/_text-align.scss',
+  '../node_modules/tachyons-sass/scss/_text-decoration.scss',
+  '../node_modules/tachyons-sass/scss/_display.scss',
+  '../node_modules/tachyons-sass/scss/_links.scss',
+  '../node_modules/tachyons-sass/scss/_skins.scss',
+  '../node_modules/tachyons-sass/scss/_skins-pseudo.scss',
+  '../node_modules/tachyons-sass/scss/_lists.scss',
+  '../node_modules/tachyons-sass/scss/_floats.scss',
+  '../node_modules/tachyons-sass/scss/_clears.scss',
+  '../node_modules/tachyons-sass/scss/_borders.scss',
+  '../node_modules/tachyons-sass/scss/_border-colors.scss',
+  '../node_modules/tachyons-sass/scss/_border-radius.scss',
+  '../node_modules/tachyons-sass/scss/_coordinates.scss',
+  '../node_modules/tachyons-sass/scss/_position.scss',
+  '../node_modules/tachyons-sass/scss/_spacing.scss',
+  '../node_modules/tachyons-sass/scss/_negative-margins.scss',
+  '../node_modules/tachyons-sass/scss/_widths.scss',
+  '../node_modules/tachyons-sass/scss/_utilities.scss',
+  'body',
+  'buttons',
+  'header',
+  'footer',
   'cards',
   'forms',
-  'metadata',
   'responsive',
   'a11y',
   'timeline',
-  'syntax',
   'writing';

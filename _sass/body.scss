@@ -1,0 +1,62 @@
+// @import '../node_modules/tachyons-sass/scss/widths';
+
+body {
+  @extend .w-100;
+  @extend .sans-serif;
+  @extend .ph3;
+  @extend .ph5-ns;
+  @extend .pv1;
+  @extend .pv3-ns;
+}
+
+a {
+  @extend .link;
+  @extend .blue;
+}
+a:hover {
+  @extend .dark-blue;
+  @extend .underline;
+}
+
+article {
+  // @extend .measure-wide-l;
+  // @extend .measure-m;
+}
+
+.main-navigation {
+  > ul {
+    @extend .gray;
+    @extend .list;
+    @extend .pa0;
+    @extend .mv3;
+
+    @extend .tc-l;
+
+    > li {
+      @extend .di;
+    }
+
+    > li:not(:first-child):before {
+      content: "•";
+      @extend .mr1;
+    }
+  }
+
+  .active {
+    @extend .b;
+  }
+}
+
+.full-page article,
+nav.full-page {
+  @extend .w-50-l;
+  @extend .center-l;
+  @extend .mv5;
+}
+
+.section--narrow {
+  @extend .gray;
+  @extend .w-50-l;
+  @extend .center-l;
+  @extend .mv5;
+}

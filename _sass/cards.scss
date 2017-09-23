@@ -1,37 +1,26 @@
 @import 'dtc';
 
-.card-in-list {
-  text-align: left;
+.cards {
+  @extend .cf;
+  @extend .w-100;
 
-  figure {
-    overflow: hidden;
-    margin: 1.5em 1px;
+  .card {
+    @extend .fl-l;
+    @extend .w-third-l;
 
-    @include av-mq('desk') {
-      img {
-        transform: scale(1.7) translate3d(0, 30px, 0);
-      }
+    figure {
+      @extend .mh0;
     }
-  }
-
-  h2 {
-    @extend .h3;
-
-    padding-top: 0;
-    text-align: left;
   }
 }
 
-.def-as-list {
-  dd,
-  dt {
-    font-size: .8em;
-  }
 
+.def-as-list {
   dt {
-    border-top: 1px solid fade-out($light-gray, .5);
-    color: lighten(#333, 16.5%);
-    font-size: .6em;
+    @extend .bt;
+    @extend .b--gray;
+    @extend .gray;
+    @extend .f7;
     margin: 1.5em 2em 0 0;
     padding: .5em 0 0;
   }

@@ -1,5 +1,7 @@
 ---
 layout: page
+title: Statuts associatifs
+lang: fr
 ---
 
 # Statuts - dtc innovation
@@ -17,7 +19,7 @@ Pour la totalité du document, l’association “dtc innovation” sera désign
 
 ## 1.2 Mise en oeuvre
 
-- L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrètes de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires. 
+- L’activité commerciale et les différentes actions de l’association “dtc” permettent la réalisation concrètes de ces projets. L’association “dtc” cherche à œuvrer en collaboration avec des organismes publics et des organisations privées en vue de pérenniser et d’autonomiser des projets exploratoires.
 - Les activités commerciales possibles sont (liste indicative non-exhaustive)
  - Accompagnement à la création de structure juridiques
  - Conception/développement de produits innovants
@@ -84,7 +86,7 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 ## 4.1 Assemblée Générale Ordinaire
 
 - L’Assemblée Générale Ordinaire comprend tous les Membres de l'Association et se réunit une fois par an.
-- Tous les Membres de l’association sont convoqués au moins sept jours avant la date fixée par les soins du Président ou de son mandataire. L’ordre du jour est indiqué sur les convocations. 
+- Tous les Membres de l’association sont convoqués au moins sept jours avant la date fixée par les soins du Président ou de son mandataire. L’ordre du jour est indiqué sur les convocations.
 - Le Président, expose la situation morale et financière de l’association.
 - Les points de l'ordre du jour sont tous discutés.
 - Après épuisement de l’ordre du jour, les Membres Noyau procèdent à la décision du nouveau Président.
@@ -92,7 +94,7 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 ## 4.2 Assemblée Générale Extraordinaire
 
 - Tout Membre ou groupe de Membres de l’association peut convoquer une Assemblée Générale Extraordinaire. Les autres Membres sont prévenus au moins sept jours avant la date fixée par le ou les Membres.
-- L’ordre du jour est indiqué sur les convocations. 
+- L’ordre du jour est indiqué sur les convocations.
 - Les points de l'ordre du jour sont tous discutés.
 
 **Note** : la convocation d’une Assemblée Générale Extraordinaire par une minorité de Membres Noyau constitue l’unique forme d’opposition formelle à une décision. Elle résulte soit d’une mauvaise communication, soit de ne pas avoir suivi le processus de décision décrit en 3.2.1 et constitue un échec pour l’association. Cet échec doit être l’occasion d’une remise en question.
@@ -106,15 +108,15 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
  - les subventions de l’Etat et des collectivités locales
  - donations des partenaires privés
  - ainsi que toutes ressources autorisées par la loi.
-- Il est tenu une comptabilité faisant apparaître annuellement un compte de résultat, un bilan et une annexe, conformément aux dispositions du règlement du 16 février 1999 relatif aux modalités d'établissement des comptes annuels des associations et fondations. 
+- Il est tenu une comptabilité faisant apparaître annuellement un compte de résultat, un bilan et une annexe, conformément aux dispositions du règlement du 16 février 1999 relatif aux modalités d'établissement des comptes annuels des associations et fondations.
 - La personne légalement responsable de la comptabilité de l’association est son Président. L’association se réserve le droit de faire appel à un comptable.
 
-## Article 5.1 : Réserve statutaire 
+## Article 5.1 : Réserve statutaire
 
 La réserve impartageable : un an de vie de l’association.
 
 
-# Article 6 : Charte 
+# Article 6 : Charte
 
 Une charte est établie par les Membres Noyau de l’association. Ce document est destiné à fixer les divers points non prévus par les statuts, notamment ceux qui on trait à la gestion interne de l’association. Ce document peut être modifié lors d’une assemblée générale.
 

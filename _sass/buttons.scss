@@ -1,0 +1,31 @@
+.btn {
+  @extend .dib;
+  @extend .bg-white;
+  @extend .ba;
+  @extend .b;
+  @extend .blue;
+  @extend .b--blue;
+  @extend .hover-bg-blue;
+  @extend .hover-white;
+  @extend .br2;
+  @extend .pa1;
+
+  cursor: pointer;
+
+  box-shadow: 1px 1px 0 $blue;
+
+  &:hover {
+    @extend .no-underline;
+    box-shadow: 1px 1px 0 $dark-blue;
+  }
+}
+
+.btn--large {
+  @extend .pa3;
+
+  box-shadow: 2px 2px 0 $blue;
+
+  &:hover {
+    box-shadow: 2px 2px 0 $dark-blue;
+  }
+}

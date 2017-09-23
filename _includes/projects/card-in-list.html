@@ -1,4 +1,4 @@
-<article class="card-in-list grid__cell 1/3--desk 1/2" id="project-{{ project.slug }}">
+<article class="card" id="project-{{ project.slug }}">
   <h2>
     <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.name }}</a>
   </h2>
@@ -10,12 +10,8 @@
     {% if project.customer %}
     <dt>With Whom?</dt>
     <dd>
-      <ul class="list-inline">{% assign customer_id = project.customer %}
-        {% assign customer = site.data.customers[customer_id] %}
-        <li>
-          <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
-        </li>
-      </ul>
+      {% assign customer = site.data.customers[project.customer] %}
+      <a href="{{ customer.url }}" target="_blank">{{ customer.name }}</a>
     </dd>
     {% endif %}
 

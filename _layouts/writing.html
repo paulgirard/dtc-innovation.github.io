@@ -3,7 +3,7 @@ layout: base
 ---
 {% assign project = site.projects | where: 'slug', page.projects | first %}
 
-<article class="container writing">
+<section class="writing">
   <header>
     <h1 class="writing__headline">{{ page.title }}</h1>
 
@@ -17,10 +17,10 @@ layout: base
     </p>
   </header>
 
-  {{ content }}
+  <article>{{ content }}</article>
 
   <footer>
-    <h2 class="h3">Do you want to read some more?</h2>
+    <h2>Do you want to read some more?</h2>
 
     <p>
       Browse some of our <a href="{{ '/writings/' | relative_url }}">general writings</a>{% unless project %}.{% endunless %}
@@ -29,8 +29,7 @@ layout: base
       or rather some <a href="{{ project.url | relative_url }}/#project-writings">writings specific to <strong>{{ project.name }}</strong></a>.
       {% endif %}
     </p>
-
   </footer>
-</article>
+</section>
 
 {% include footer.html %}

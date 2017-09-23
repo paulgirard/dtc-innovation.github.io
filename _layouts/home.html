@@ -1,33 +1,33 @@
 ---
 layout: base
 ---
-  <article class="container">
+  <article class="hero">
     {{ content }}
   </article>
 
-  <section class="container container--large">
+  <section>
     <header>
-      <h1 class="text--center">Project Highlights</h1>
+      <h1>Project Highlights</h1>
     </header>
 
-    <div class="grid grid--large">
+    <div class="cards">
     {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
     {% for project in projects %}
     {% include projects/card-in-list.html project=project %}
     {% endfor %}
     </div>
 
-    <footer class="container container--centered">
-      <a href="{{ site.baseurl }}/projects/" class="btn btn--large btn--browse">Browse all projects…</a>
+    <footer class="tc mv4">
+      <a href="{{ site.baseurl }}/projects/" class="btn btn--large">Discover all our projects…</a>
     </footer>
   </section>
 
-  <section class="container container--large">
+  <section>
     <header>
-      <h1 class="text--center">About us</h1>
+      <h1>About us</h1>
     </header>
 
-    <div class="grid grid--large">
+    <div class="cards">
     {% for person_hash in site.data.team %}
     {% assign id = person_hash[0] %}
     {% assign person = person_hash[1] %}

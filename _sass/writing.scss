@@ -1,9 +1,23 @@
 .writing {
-  .writing__headline {
-    @extend .h2;
-  }
-}
+  @extend .w-50-l;
+  @extend .center-l;
+  @extend .mv5;
 
-.writing .metadata {
-  margin-top: -3em;
+  .subtitle {
+    @extend .f4;
+    @extend .gray;
+    @extend .nt3;
+  }
+
+  footer {
+    @extend .gray;
+    @extend .mt5;
+
+    &:before {
+      content: "";
+      @extend .db;
+      border-top: 5px solid $gray;
+      width: 50px;
+    }
+  }
 }

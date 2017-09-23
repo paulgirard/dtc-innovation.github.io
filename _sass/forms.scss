@@ -1,17 +1,32 @@
-@import 'dtc';
-
 option[value=""] {
-  color: $light-gray;
+  @extend .gray;
 }
 
-.btn {
-  background: #fff;
-  border: 1px solid $light-gray;
-  border-radius: 5px;
-  cursor: pointer;
+form {
+  @extend .cf;
+  @extend .w-100;
 
-  &.btn--large {
-    border-width: 2px;
-    padding: 1rem;
+  input {
+    @extend .ba;
+    @extend .b--blue;
+  }
+
+  .input-group {
+    @extend .fl;
+    @extend .mr4;
+    @extend .mb3;
+    @extend .mb0-ns;
+
+    label {
+      @extend .black;
+      @extend .db;
+      @extend .mb1;
+
+      cursor: pointer;
+    }
+  }
+
+  > .btn {
+    @extend .pa2;
   }
 }

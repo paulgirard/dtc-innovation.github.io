@@ -1,0 +1,20 @@
+.main-title {
+  @extend .tc-l;
+  @extend .f1;
+  @extend .f-5-l;
+}
+
+.main-title + .subtitle {
+  @extend .tc-l;
+  @extend .nt4;
+  @extend .nt5-l;
+}
+
+.hero {
+  @extend .f4;
+  @extend .f3-ns;
+  @extend .mv5;
+  @extend .tc-l;
+  @extend .center-l;
+  @extend .measure-wide-l;
+}

@@ -4,26 +4,31 @@ $timeline-dot-width: 10px;
 $timeline-dot-border-width: 2px;
 
 .timeline {
-  list-style: none;
-  position: relative;
+  @extend .list;
+  @extend .relative;
+  @extend .pl4;
 
   &:before {
-    background: $light-gray;
-    bottom: 0;
+    @extend .absolute;
+    @extend .bg-gray;
+    @extend .bottom-0;
+    @extend .top-0;
     content: "";
     left: ($timeline-dot-width + $timeline-dot-border-width) / 2;
-    position: absolute;
-    top: 0;
     width: $timeline-dot-border-width;
     z-index: -1;
   }
 
   .timeline__item {
-    position: relative;
+    @extend .relative;
 
     time {
-      color: $gray;
-      font-size: .8em;
+      @extend .gray;
+      @extend .f6;
+    }
+
+    p:first-of-type {
+      @extend .mt2;
     }
 
     a[rel="permalink"] {
@@ -37,8 +42,8 @@ $timeline-dot-border-width: 2px;
       content: "";
       display: block;
       height: $timeline-dot-width;
-      left: -1.5rem;
-      margin: .35rem 0;
+      left: -#{$spacing-large};
+      margin: .2rem 0;
       position: absolute;
       width: $timeline-dot-width;
     }

@@ -1,5 +1,5 @@
-<section class="container page-footer-pre">
-  <h1>Stay In Touch!</h1>
+<section class="section--narrow">
+  <h1>Feel free to stay in touch</h1>
 
   <p>
     You can reach us on our
@@ -11,20 +11,29 @@
     with a limited connectivity.
   </p>
 
+  <p>
+    Subscribe to our <strong>company and project updates</strong>. We send them <em>every other month</em>
+    in a <strong>personal and lightweight</strong> format:
+  </p>
+
   <form method="POST" action="https://dtc-innovation.us14.list-manage.com/subscribe/post?u=b0f6f0d51771df93463c7b23f&amp;id=fbe749b473" target="_blank">
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_b0f6f0d51771df93463c7b23f_fbe749b473" tabindex="-1" value=""></div>
 
-    <p>
-      Subscribe to our <strong>company and project updates</strong>. We send them every other <em>month</em>
-      in a <strong>personal and lightweight</strong> format:
-    </p>
+    <div class="input-group">
+      <label for="newsletter-email">Your email address</label>
 
-    <input type="email" name="EMAIL" placeholder="Your email address" class="input" required>
-    <select name="FAV_LANG" class="" required>
-      <option value="">Preferred contact language</option>
-      <option value="English">English</option>
-      <option value="Français">Français</option>
-    </select>
-    <button name="subscribe" type="submit" class="btn">Subscribe</button>
+      <input type="email" name="EMAIL" class="input" id="newsletter-email" required>
+    </div>
+
+    <div class="input-group">
+      <label for="newsletter-lang-en">Preferred contact language</label>
+
+      English <input name="FAV_LANG" type="radio" value="English" id="newsletter-lang-en"> •
+      Français <input name="FAV_LANG" type="radio" value="Français" id="newsletter-lang-fr">
+    </div>
+
+    <div class="input-group">
+      <button name="subscribe" type="submit" class="btn">Subscribe</button>
+    </div>
   </form>
 </section>

@@ -3,7 +3,7 @@
   {% include head.html %}
   <body>
     <nav class="main-navigation">
-      <ul class="list-inline list-inline--dotted">
+      <ul>
         {% assign pages = site.pages | where_exp: 'p', 'p.menu_title' | sort: 'menu_order' %}
         {% for p in pages %}
         {% assign menu_class = '' %}
@@ -17,7 +17,7 @@
     </nav>
 
     {% include header.html %}
-    
+
     {{content}}
   </body>
 </html>
