@@ -57,4 +57,4 @@ _site/
 
 # Node
 node_modules
-!node_modules/avalanche-css
+!node_modules/tachyons-sass/scss
