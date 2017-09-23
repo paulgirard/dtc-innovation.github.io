@@ -12,7 +12,7 @@ form {
   }
 
   .input-group {
-    @extend .fl;
+    @extend .fl-ns;
     @extend .mr4;
     @extend .mb3;
     @extend .mb0-ns;
