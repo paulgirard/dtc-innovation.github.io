@@ -5,7 +5,6 @@ menu_title: Home
 menu_order: 1
 ---
 
-<span id="ref-services"></span>
-We are a _pluridisciplinary_ team of people who bring **human&ndash;centric innovation**, **web expertise** and **co-operation practices** to your team and products.
+We are a small _pluridisciplinary_ team who brings **human&ndash;centric design**, **web engineering expertise** and **collaborative practices** to your teams and products.
 
-It translates into **iterative design thinking**, **agile software development** and **bespoke training consultancy** services - _remotely_ and _in house_.
+We love to craft meaningful projects, to take a step back and to empower the people we work with.

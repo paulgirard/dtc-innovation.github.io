@@ -1,19 +1,24 @@
 ---
 layout: base
 ---
+{% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+{% assign customers = site.data.customers %}
+
   <article class="hero">
     {{ content }}
+
+    <p>
+      At the moment we work {% for project in projects %}
+      on <a href="{{ project.url }}">{{ project.name | downcase }}</a> with <em>{{ customers[ project.customer ].name }}</em>, {% endfor %}
+      just to name a few.
+    </p>
   </article>
 
   <section>
-    <header>
-      <h1>Project Highlights</h1>
-    </header>
-
     <div class="cards">
-    {% assign projects = site.projects | where_exp: "d", "d.highlights_order > 0" | sort: "highlights_order"  %}
+    {% assign features = 'customer,current-stage,resources' | split:',' %}
     {% for project in projects %}
-    {% include projects/card-in-list.html project=project %}
+    {% include projects/card-in-list.html project=project features=features %}
     {% endfor %}
     </div>
 

@@ -1,3 +1,5 @@
+{% assign default_features = 'customer,current-stage,next-stage,resources' | split:',' %}
+{% assign features = include.features | default:default_features %}
 <article class="card" id="project-{{ project.slug }}">
   <h2>
     <a href="{{ project.url | relative_url }}" rel="permalink">{{ project.name }}</a>
@@ -7,7 +9,7 @@
     <dt class="hidden-from-ui">Summary</dt>
     <dd class="main">{{ project.short_description }}</dd>
 
-    {% if project.customer %}
+    {% if project.customer and features contains 'customer' %}
     <dt>With Whom?</dt>
     <dd>
       {% assign customer = site.data.customers[project.customer] %}
@@ -15,16 +17,18 @@
     </dd>
     {% endif %}
 
+    {% if features contains 'current-stage' %}
     <dt>Current Stage</dt>
     <dd>{{ project.current_stage }}</dd>
+    {% endif %}
 
-    {% if project.next_stage %}
+    {% if project.next_stage and features contains 'next-stage' %}
     <dt>Next Stage</dt>
     <dd>{{ project.next_stage }}</dd>
     {% endif %}
 
     {% assign collection = site.collections | where:'label',project.collection | first %}
-    {% if project.resources %}
+    {% if project.resources and features contains 'resources' %}
     <dt>Additional Resources</dt>
       {% for resource_value in project.resources %}
       {% assign resource_id = resource_value[0] %}
