@@ -1,21 +1,55 @@
 ---
-lang: fr
-title: Statuts et assemblées générales
+lang: en
+title: Values, policies and company documentation.
 layout: page
 menu_order: 4
 menu_title: Values
 ---
 
-<h2>Éléments constitutifs</h2>
+<p class="hero">
+  <em>dtc innovation</em> is a non-profit and capital-free company. We would like to share with you what is our DNA.
+</p>
 
-<ul>
-  <li><a href="statuts.html">Statuts</a></li>
-</ul>
+<h1>Values</h1>
 
-<h2>Vie courante</h2>
+<h2>Continuity</h2>
 
-<ol>
-{% for assembly in site.assemblies  %}
-<li><a href="{{ assembly.url }}">{{ assembly.title }}</a></li>
-{% endfor %}
-</ol>
+<p>We do what we say. We magnify your request according to our vision.</p>
+
+<h2>Openness</h2>
+
+<p><em>Open Source</em> is a default. We give back to the Commons.</p>
+
+<h2>Exemplarity</h2>
+
+<p>We document what we do. You tap into it. For free.</p>
+
+<h2>Care</h2>
+
+<p>We create our own protective, gentle and work environment.</p>
+
+<section lang="fr">
+  <h1>Documentation</h1>
+
+  <em lang="en">The section below is in French only</em>.
+
+  <p>
+    <em>dtc innovation</em> est une association de loi 1901
+    à <a href="https://www.service-public.fr/associations/vosdroits/F31838">caractère commercial</a> et à <a href="https://www.service-public.fr/associations/vosdroits/F34104">gestion intéressée</a>.
+  </p>
+
+  <h2>Éléments constitutifs</h2>
+
+  <ul>
+    <li><a href="statuts.html">Statuts associatifs</a></li>
+  </ul>
+
+  <h2>Vie courante</h2>
+
+  <ol>
+  {% for assembly in site.assemblies  %}
+  <li><a href="{{ assembly.url }}">{{ assembly.title }}</a></li>
+  {% endfor %}
+  </ol>
+
+</section>
