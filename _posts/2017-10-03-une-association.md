@@ -9,7 +9,7 @@ category: null
 projects: null
 date: 2017-10-03T21:23:18.412Z
 ---
-dtc innovation est une [association loi 1901 à but non lucratif](https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=W332020707).
+#dtc innovation est une [association loi 1901 à but non lucratif](https://www.journal-officiel.gouv.fr/association/index.php?ACTION=Rechercher&JTY_WALDEC=W332020707).
 
 dtc est actuellement composée de David, Thomas et Clémentine. Nous portons des projets auxquels nous croyons et pour lesquels nous aspirons à nous rémunérer.
 
