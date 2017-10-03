@@ -7,7 +7,7 @@ backend:
   branch: master
 
 media_folder: "images/uploads"
-publish_mode: editorial_workflow
+# publish_mode: editorial_workflow
 
 collections:
   - name: "writing"
