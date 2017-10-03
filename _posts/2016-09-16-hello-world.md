@@ -6,8 +6,6 @@ lang: en
 
 _dtc innovation_ officially started its first day of existence, today.
 
-<!--more-->
-
 This is us:
 
 ![They embrace the risk of freedom.](/images/posts/team-dtc.jpg)
