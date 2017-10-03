@@ -1,15 +1,15 @@
-.writing {
-  @extend .w-50-l;
-  @extend .center-l;
-  @extend .mv5;
-
-  .subtitle {
+.full-page {
+  .metadata {
     @extend .f4;
     @extend .gray;
     @extend .nt3;
   }
 
-  footer {
+  > footer {
+    @extend .w-50-l;
+    @extend .center-l;
+    @extend .mv5;
+    
     @extend .gray;
     @extend .mt5;
 

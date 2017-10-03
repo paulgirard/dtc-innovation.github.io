@@ -3,11 +3,15 @@ layout: base
 ---
 {% assign project = site.projects | where: 'slug', page.projects | first %}
 
-<section class="writing">
-  <header>
-    <h1 class="writing__headline">{{ page.title }}</h1>
+<section class="full-page">
+  <header class="hero">
+    <h1>{{ page.title }}</h1>
 
-    <p class="subtitle metadata">
+    {% if page.subtitle != blank %}
+    <p>{{ page.subtitle }}</p>
+    {% endif %}
+
+    <p class="metadata">
       {{ page.category | default: 'Writing' }}
       {% if project %}
       about the <em><a href="{{ project.url | relative_url }}/">{{ project.name }}</a> project</em>

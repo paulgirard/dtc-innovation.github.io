@@ -21,30 +21,35 @@ collections:
         name: "title"
         tagname: "h1"
         widget: "string"
+      - label: "Subtitle"
+        name: "subtitle"
+        tagname: "h2"
+        widget: "string"
+      - label: "Writing Body"
+        name: "body"
+        widget: "markdown"
+      - label: "Cover image"
+        name: image
+        widget: "image"
       - label: "Language"
         name: "lang"
         widget: "select"
         options: ["fr", "en"]
-      - label: "Author"
-        name: "author"
-        widget: "select"
-        options: ["", {% for d in site.data.team %}{{ d[0] | jsonify }},{% endfor %}]
       - label: "Categories"
         name: "category"
         widget: "string"
+        required: false
       - label: "Linked Project"
         name: "projects"
         widget: "select"
         options: ["", {% for d in site.projects %}{{ d.slug | jsonify }},{% endfor %}]
+        required: false
       - label: "Publish Date"
         name: "date"
         widget: "datetime"
         format: "YYYY-MM-DD hh:mm:ss"
-      - label: "Writing Body"
-        name: "body"
-        widget: "markdown"
   - name: "project"
-    label: "Project"
+    label: "Projects"
     folder: "_projects" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     fields: # The fields each document in this collection have
@@ -58,6 +63,9 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Cover image"
+        name: image
+        widget: "image"
       - label: "Customer"
         name: "customer"
         widget: "select"
