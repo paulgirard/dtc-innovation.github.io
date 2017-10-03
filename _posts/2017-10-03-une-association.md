@@ -122,11 +122,12 @@ Pour résumer :
 
 > dtc innovation est une association loi 1901 à but non-lucratif, à activité commerciale et à gestion intéressée.
 
-Si c'est un peu long, dites juste "[dtc](https://dtc-innovation.github.io/random)" ;-)
+Si c'est un peu long, dites juste "[dtc](https://dtc-innovation.org/random)" ;-)
 
 ## Remerciements
 
 Nous remercions [Matti Schneider](https://mattischneider.fr/) pour sa relecture et ses commentaires.
+
 
 
 
