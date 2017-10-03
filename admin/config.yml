@@ -36,7 +36,8 @@ collections:
       - label: "Language"
         name: "lang"
         widget: "select"
-        options: ["fr", "en"]
+        options: ["", "fr", "en"]
+        required: false
       - label: "Categories"
         name: "category"
         widget: "string"
