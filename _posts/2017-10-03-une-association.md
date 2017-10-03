@@ -27,7 +27,8 @@ Une association loi 1901 est *toujours* à but non lucratif [sauf par abus de la
 
 Un modèle classique pour une association est de demander des subventions à des collectivités locales. Nous n’avons pas prévu d’utiliser ce mode de financement. Il n'est pas exclu de demander une subvention si un projet que nous menons s’y prête.
 
-Légalement parlant, dtc innovation est [une association \*\*à activité commerciale\*\*](https://www.service-public.fr/associations/vosdroits/F31838).
+Légalement parlant, dtc innovation est [une association 
+**à activité commerciale**](https://www.service-public.fr/associations/vosdroits/F31838).
 
 #**Se payer **
 
@@ -70,7 +71,7 @@ Les sociétés à capital (SARL, SAS, SA, etc.) ont un… capital. Ce capital es
 
 3\. Les parts sont des marchandises que l’on peut revendre.
 
-Une association loi 1901 n'a ni capital ni parts sociales. En conséquence :
+**Une association loi 1901 n'a ni capital ni parts sociales.** En conséquence :
 
 1\. nous *devons* prendre nos décisions autrement que par un vote pondéré par le nombre de parts, c’est à dire par l’argent investi par chacun (nous détaillerons les questions de *gouvernance collective* dans un article dédié) ;
 
@@ -94,7 +95,7 @@ Tout accompagnement par l’URSCOP est payant. On aurait pu imaginer un système
 
 Il y a bien des avantages fiscaux à être une SCOP :
 
-* l’impôt sur les sociétés est calculé sur le résultat \*après\* la mise en réserve (contrairement aux autres sociétés à capitaux où le calcule a lieu avant) ;
+* l’impôt sur les sociétés est calculé sur le résultat *après* la mise en réserve (contrairement aux autres sociétés à capitaux où le calcule a lieu avant) ;
 * la « part travail » (portion du bénéfice reversée aux salariés) n’est pas comptée non plus.
 
 Ce système ressemble beaucoup à « il faut payer la CGSCOP pour économiser de l’impôt sur les sociétés »… avec aucun accompagnement, aide ou avantages en contrepartie.
@@ -130,3 +131,4 @@ Si c'est un peu long, dites juste "[dtc](https://dtc-innovation.github.io/random
 ## **Remerciements**
 
 Nous remercions [Matti Schneider](https://mattischneider.fr/) pour sa relecture et ses commentaires.
+
