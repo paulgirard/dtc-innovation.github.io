@@ -25,12 +25,14 @@ collections:
         name: "subtitle"
         tagname: "h2"
         widget: "string"
+        required: false
       - label: "Writing Body"
         name: "body"
         widget: "markdown"
       - label: "Cover image"
         name: image
         widget: "image"
+        required: false
       - label: "Language"
         name: "lang"
         widget: "select"
@@ -66,6 +68,7 @@ collections:
       - label: "Cover image"
         name: image
         widget: "image"
+        required: false
       - label: "Customer"
         name: "customer"
         widget: "select"
