@@ -54,8 +54,8 @@ Par défaut, les associations loi 1901 bénéficient de tout un tas d’avantage
 
 Ces avantages sont conditionnés à un certain nombre de règles auxquelles l’association doit se contraindre. dtc ne respecte pas deux de ces conditions :
 
-* Pour bénéficier des avantages fiscaux, une petite association ne doit pas payer ses dirigeants plus de 3/4 du SMIC. Nous aspirons à diriger l’association et à nous payer plus que cette somme. \*\*dtc est une association à gestion intéressée\*\*.
-* Pour nos activités commerciales, nous rentrons en concurrence avec des sociétés à capital. Afin de ne pas créer une situation de concurrence déloyale, \*\*les associations à activités commerciales sont soumises aux *mêmes impôts* que les sociétés à capital\*\*.
+* Pour bénéficier des avantages fiscaux, une petite association ne doit pas payer ses dirigeants plus de 3/4 du SMIC. Nous aspirons à diriger l’association et à nous payer plus que cette somme. **dtc est une association à gestion intéressée**.
+* Pour nos activités commerciales, nous rentrons en concurrence avec des sociétés à capital. Afin de ne pas créer une situation de concurrence déloyale, **les associations à activités commerciales sont soumises aux *mêmes impôts* que les sociétés à capital**.
 
 Par conséquent, nous avons pris les devants et nous sommes déclarés auprès du Service d’Impôt des Entreprises (SIE) comme une association payant des impôts commerciaux.
 
@@ -63,7 +63,7 @@ Nous avons un comptable qui nous suit et réalise le bilan comptable à la fin d
 
 # Pas de capital
 
-Les sociétés à capital (SARL, SAS, SA, etc.) ont un… capital. Ce capital est découpé en \*parts\* que des personnes physiques ou morales peuvent acheter à la création et s’échanger ensuite. Cela implique les conséquences suivantes :
+Les sociétés à capital (SARL, SAS, SA, etc.) ont un… capital. Ce capital est découpé en *parts* que des personnes physiques ou morales peuvent acheter à la création et s’échanger ensuite. Cela implique les conséquences suivantes :
 
 1. **Plus on a de parts, plus on a de pouvoir de décision** dans la société quand il y a un vote ;
 1. **Plus on a de parts, plus on touche de dividendes** quand il s'agit de se partager le bénéfice généré par la société ;
@@ -102,7 +102,7 @@ Ce système ressemble beaucoup à « il faut payer la CGSCOP pour économiser d
 
 **Ce n'est pas dans notre giron à court, moyen ou long terme**.
 
-Si ça avait lieu, rien ne nous empêche de créer une filiale dédiée à ce projet à fort potentiel de rentabilité. \*\*Si cette filiale se plante, elle n’affecte pas l’association\*\*.
+Si ça avait lieu, rien ne nous empêche de créer une filiale dédiée à ce projet à fort potentiel de rentabilité. **Si cette filiale se plante, elle n’affecte pas l’association**.
 
 On verra quand on y sera — si on y est un jour.
 
@@ -127,6 +127,7 @@ Si c'est un peu long, dites juste "[dtc](https://dtc-innovation.github.io/random
 ## Remerciements
 
 Nous remercions [Matti Schneider](https://mattischneider.fr/) pour sa relecture et ses commentaires.
+
 
 
 
