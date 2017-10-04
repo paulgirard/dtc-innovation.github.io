@@ -21,8 +21,10 @@ a:hover {
 }
 
 article {
-  // @extend .measure-wide-l;
-  // @extend .measure-m;
+  p,
+  li {
+    @extend .lh-copy;
+  }
 }
 
 .main-navigation {
@@ -61,4 +63,8 @@ nav.full-page {
   @extend .w-50-l;
   @extend .center-l;
   @extend .mv5;
+
+  p {
+    @extend .lh-copy;
+  }
 }
