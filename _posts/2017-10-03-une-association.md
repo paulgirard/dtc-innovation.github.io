@@ -15,7 +15,7 @@ dtc est actuellement composée de David, Thomas et Clémentine. Nous portons des
 
 Dans le monde de la technique, il est peu commun de se constituer en association. Dans d'autres univers, notamment dans le social ou les arts/spectacles, c'est presque la norme. Et beaucoup d'associations dans le social ont des salariés ; [la Croix Rouge en compte pas moins de 18 000](http://www.croix-rouge.fr/La-Croix-Rouge/La-Croix-Rouge-francaise/En-bref) par exemple.
 
-Ça en étonne plus d’un·e quand on dit que dtc est une association de loi 1901. Et pourtant nous ne voyons pas aujourd’hui de meilleur forme pour travailler ensemble. Petit guide pratique !
+Ça en étonne plus d’un·e quand on dit que dtc est une association de loi 1901. Et pourtant nous ne voyons pas aujourd’hui de meilleure forme pour travailler ensemble. Petit guide pratique !
 
 # Non lucratif
 
