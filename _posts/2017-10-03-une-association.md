@@ -96,7 +96,7 @@ Il y a bien des avantages fiscaux à être une SCOP :
 
 Ce système ressemble beaucoup à « il faut payer la CGSCOP pour économiser de l’impôt sur les sociétés »… avec aucun accompagnement, aide ou avantages en contrepartie.
 
-# Le « puit de pétrole »
+# Le « puits de pétrole »
 
 > Mais imagine un jour vous trouvez la prochaine idée de billion-dollar startup ? Vous la créez, vous faites des milliards et vous ne pouvez rien toucher de cet argent !
 
