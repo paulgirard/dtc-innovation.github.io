@@ -1,23 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
   <meta charset="utf-8">
   <meta name="description" content="random">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    body {
+      background: #fafafa;
+      color: #333;
+      font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+    }
+
     h1, h2{
         text-align: center;
     }
 
     h2{
-        color: grey;
+        color: #777;
     }
 
     h2:nth-of-type(2){
-        color:steelblue;
+        color: #357edd;
     }
   </style>
-  <title> Mais qu'est-ce que c'est donc dtc ? </title>
+  <title>Mais qu'est-ce que c'est donc dtc ?</title>
 </head>
 <body>
   <header>
@@ -31,7 +37,7 @@
     var randomdtc = [
         'Disco Tarte et Chocolat',
         'David Thomas et Clémentine',
-        'Designing Technologies for the Communs',
+        'Designing Technologies for the Commons',
         'Dream Team de Choc',
         'Déconstruis Tes Certitudes',
         'Demi-Tour Camarade',
@@ -42,6 +48,7 @@
         'Dinette Tetris et Collage',
         'Danse Tantrique des Cerveaux',
         'Déployer Transmettre Contribuer',
+        'Data Transparence Collective',
     ]
     var titre = Math.floor(randomdtc.length*Math.random())
     var affichée = randomdtc[titre];
