@@ -19,7 +19,7 @@ Dans le monde de la technique, il est peu commun de se constituer en association
 
 # Non lucratif
 
-Une association loi 1901 est *toujours* à but non lucratif [sauf par abus de langage](https://fr.wikipedia.org/wiki/Association_%C3%A0_but_lucratif#Quand_parle-t-on_d.27association_.C3.A0_but_lucratif.3F). La non-lucrativité signifie que **la finalité de la structure n'est pas de dégager un bénéfice qui sera reversé à des actionnaires**.
+Une association loi 1901 est *toujours* à but non lucratif [sauf par abus de langage][asso-but-lucratif]. La non-lucrativité signifie que **la finalité de la structure n'est pas de dégager un bénéfice qui sera reversé à des actionnaires**.
 
 # Faire rentrer de l'argent
 
@@ -27,7 +27,7 @@ Une association loi 1901 est *toujours* à but non lucratif [sauf par abus de la
 
 Un modèle classique pour une association est de demander des subventions à des collectivités locales. Nous n’avons pas prévu d’utiliser ce mode de financement. Il n'est pas exclu de demander une subvention si un projet que nous menons s’y prête.
 
-Légalement parlant, dtc innovation est [une association 
+Légalement parlant, dtc innovation est [une association
 **à activité commerciale**](https://www.service-public.fr/associations/vosdroits/F31838).
 
 # Se payer
@@ -108,7 +108,7 @@ On verra quand on y sera — si on y est un jour.
 
 # Statuts Jeune Entreprise Innovante et Crédit Impôt Recherche
 
-Nos activités suggèrent que nous pourrions avoir droit aux dispositifs [Jeune Entreprise Innovante (JEI) ](https://www.service-public.fr/professionnels-entreprises/vosdroits/F31188)et [Crédit Impôt Recherche (CIR)](https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533)
+Nos activités suggèrent que nous pourrions avoir droit aux dispositifs [Jeune Entreprise Innovante (JEI)][] et [Crédit Impôt Recherche (CIR)][]
 
 [La définition de l'INSEE](https://www.insee.fr/fr/metadonnees/definition/c1496) nous apprend qu'une association est une entreprise. Après vérification avec notre comptable, il semblerait que nous y avons effectivement droit. Il s'agit de démarches en cours, nous mettrons cet article à jour quand nous nous serons confrontés à la réalité administrative.
 
@@ -129,6 +129,6 @@ Si c'est un peu long, dites juste "[dtc](https://dtc-innovation.org/random)" ;-)
 Nous remercions [Matti Schneider](https://mattischneider.fr/) pour sa relecture et ses commentaires.
 
 
-
-
-
+[asso-but-lucratif]: https://web.archive.org/web/20151022234357/https://fr.wikipedia.org/wiki/Association_%C3%A0_but_lucratif#Quand_parle-t-on_d.27association_.C3.A0_but_lucratif.3F
+[Jeune Entreprise Innovante (JEI)]: https://www.service-public.fr/professionnels-entreprises/vosdroits/F31188
+[Crédit Impôt Recherche (CIR)]: https://www.service-public.fr/professionnels-entreprises/vosdroits/F23533
