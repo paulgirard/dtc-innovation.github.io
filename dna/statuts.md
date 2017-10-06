@@ -100,7 +100,7 @@ Pour les articles 4.1 et 4.2 chaque décision est prise selon les modalités de 
 **Note** : la convocation d’une Assemblée Générale Extraordinaire par une minorité de Membres Noyau constitue l’unique forme d’opposition formelle à une décision. Elle résulte soit d’une mauvaise communication, soit de ne pas avoir suivi le processus de décision décrit en 3.2.1 et constitue un échec pour l’association. Cet échec doit être l’occasion d’une remise en question.
 
 
-# Article 5 : Les ressources financière
+# Article 5 : Les ressources financières
 
 - Les ressources financières comprennent :
  - le produit de l’activité commerciale
